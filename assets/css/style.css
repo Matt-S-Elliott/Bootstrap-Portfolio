@@ -11,28 +11,6 @@ body {
   box-sizing: border-box;
 }
 
-/* general */
-
-
-/* h1,
-h2,
-h3,
-p {
-  margin-bottom: 20px;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-
-
-h2,
-h3 {
-  font-size: 22px;
-} */
-
-/* header */
 
 h1,
 h2,
@@ -98,29 +76,16 @@ h3, h2 {
   border: 1px solid #dddddd;
 }
 
-/* .main-section {
-  float: left;
-  width: 100%;
-  max-width: 960px;
-  padding: 30px;
-  margin: 0 0 40px;
-  background: #ffffff;
-  border: 1px solid #dddddd;
-} */
 
 /* portfolio page */
 
-.work {
-  position: relative;
-  float: left;
+ .work {
   width: 274px;
+  max-width: 100%;
   margin: 20px 0 25px;
   overflow: auto;
 }
 
-.work:nth-child(even) {
-  margin-right: 40px;
-}
 
 .work img {
   width: 100%;
@@ -148,6 +113,7 @@ h3, h2 {
   max-width: 100%;
   height: auto;
   margin-top: 10px;
+  margin-right: 30px;
 }
 
 /* contact page */
@@ -209,6 +175,12 @@ input[type=submit] {
   padding: 0px;
   background-color: #ffffff;
   border-bottom: 2px solid #cccccc
+}
+
+#nav-container {
+  width: 100%;
+  max-width: 960px;
+  padding: 0;
 }
 
 .my-nav-links {
